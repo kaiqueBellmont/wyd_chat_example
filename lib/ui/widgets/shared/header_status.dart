@@ -37,7 +37,7 @@ class HeaderStatus extends StatelessWidget {
                 child: typing == null
                     ? Text(
                         online ? 'Online' : description!,
-                        style: Theme.of(context).textTheme.caption,
+                        style: Theme.of(context).textTheme.labelMedium,
                       )
                     : Text(
                         typing!,

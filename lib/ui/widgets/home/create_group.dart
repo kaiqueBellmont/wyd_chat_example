@@ -126,7 +126,7 @@ class _CreateGroupState extends State<CreateGroup> {
               Center(
                 child: Text(
                   'New Group',
-                  style: Theme.of(context).textTheme.caption,
+                  style: Theme.of(context).textTheme.labelMedium,
                 ),
               ),
               TextButton(

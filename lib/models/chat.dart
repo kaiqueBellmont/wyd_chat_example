@@ -31,7 +31,7 @@ class Chat {
   toMap() => {
         'id': id,
         'name': name,
-        'type': type?.value(),
+        'type': type.value(),
         'members': membersId?.map((e) => jsonEncode(e)).join(",")
       };
   factory Chat.fromMap(Map<String, dynamic> map) => Chat(

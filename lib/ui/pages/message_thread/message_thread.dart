@@ -243,7 +243,7 @@ class _MessageThreadState extends State<MessageThread> {
         textInputAction: TextInputAction.newline,
         keyboardType: TextInputType.multiline,
         maxLines: null,
-        style: Theme.of(context).textTheme.caption,
+        style: Theme.of(context).textTheme.labelMedium,
         cursorColor: kPrimary,
         onChanged: _sendTypingNotification,
         decoration: InputDecoration(
